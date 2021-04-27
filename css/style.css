@@ -208,6 +208,18 @@ margin-top:0%;
     gap: 30px;
 }
 
+.testimony__item{
+ width: 95%;
+ margin: 0 auto;
+ background: var(--color-secondary);
+ box-shadow: 0 8px 10px rgba(66,66,66, .5); 
+ border-radius: 4px;
+ padding: 30px 25px;
+ color:#fff;
+ margin-bottom: 50px;  
+
+}
+
 /*===========footer=============*/
 .nav{
     display:flex;
