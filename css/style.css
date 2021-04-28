@@ -16,7 +16,7 @@ body{
     width: 95%;
     margin: 0 auto;
     overflow: hidden;
-    padding: 80px 0;
+    padding: 70px 0;
     max-width: 1200px;
 }
 
@@ -139,6 +139,7 @@ margin-top:0%;
     "img1 img1 img2 img3"
     "img1 img1 img4 img5";
     gap: 5px;
+   
       
 }
 
@@ -148,6 +149,7 @@ margin-top:0%;
     height: 100%;
     overflow: hidden;
     border-radius: 4px;
+    box-shadow: 0 0.1em 0.2em rgba(66,66,66, .5); 
 }
 .projects__img{
     width: 100%;
@@ -155,6 +157,7 @@ margin-top:0%;
     object-fit: cover;
     cursor:pointer;
     border-radius: 4px;
+
 }
 
 .projects__items:nth-of-type(1){
@@ -206,6 +209,7 @@ margin-top:0%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    
 }
 
 .testimony__item{
@@ -218,6 +222,11 @@ margin-top:0%;
  color:#fff;
  margin-bottom: 50px;  
 
+}
+
+.testimony__img{
+    width: 100%;
+    
 }
 
 /*=========== footer =============*/
