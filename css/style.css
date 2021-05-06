@@ -13,11 +13,11 @@ body{
 }
 
 .container {    
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     overflow: hidden;
     padding: 70px 0;
-    max-width: 1200px;
+   
 }
 
 .subtitle{
@@ -205,7 +205,7 @@ margin-top:0%;
 /*=========== Testimony ==============*/
 
 .testimony__grid{
-    width: 100%;
+    width: 97%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -213,9 +213,9 @@ margin-top:0%;
 }
 
 .testimony__item{
- width: 95%;
+ width: 97%;
  margin: 0 auto;
- background: var(--color-secondary);
+ background: var(--color-primary);
  box-shadow: 0 8px 10px rgba(66,66,66, .5); 
  border-radius: 4px;
  padding: 30px 25px;
@@ -223,10 +223,22 @@ margin-top:0%;
  margin-bottom: 50px;  
 
 }
+.testimony__person{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
 
 .testimony__img{
-    width: 100%;
-    
+    width: 9rem;
+    min-width: 6.25rem;
+    height:9rem;
+    object-fit: cover;
+    object-position:top;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-right: 30px;
 }
 
 /*=========== footer =============*/
