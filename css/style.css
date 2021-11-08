@@ -399,3 +399,34 @@ margin-top:0%;
     font-size: 1.5rem;
     margin-bottom:20px;
 }
+.subtitle{
+    font-size: 2rem;
+}
+.presentation__copy{
+    width: 100%;
+}
+.presentation__picture{
+    width: 180px;
+    height: 180px;
+}
+
+.about{
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+}
+.container{
+    padding: 20px 0;
+}
+.about__img{
+    margin-top: 0px;
+}
+
+.about__img--left{
+    text-align: center;
+}
+.about__picture{
+    max-width: 100%;/*de la columna del grid*/
+}
+.about__texts:last-child{
+    grid-row: 3/4;
+}
