@@ -217,7 +217,7 @@ margin-top:0%;
 }
 
 .testimony__item{
- width: 97%;
+ width: 90%;
  margin: 0 auto;
  background: var(--background);
  box-shadow: 0 8px 10px rgba(66,66,66, .5); 
@@ -453,15 +453,31 @@ margin-top:0%;
 
 /*  testimony*/
 .testimony__grid{
+    grid-template-columns: 1fr;
+    gap:30px;
+}
+.testimony__item{
+    padding: 20px 10px;
+}
+.testimony__person{
+    flex-direction: column;
+}
+.testimony__img{
+    margin: 0%;
+}
+/*
+.testimony__grid{
     display:inline-block;
+  
     
 }
   .testimony__item{
     
     flex-flow: column wrap;
     justify-content: center;
-    
+   
 }
 .nav.nav--footer{
     justify-content: space-between;
 }
+*/
