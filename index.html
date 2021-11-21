@@ -12,9 +12,9 @@
   <header class="hero">
       <div class="container">
             <nav class="nav">
-              <a href="#" class="nav__items">Sobre mí</a>
-              <a href="#" class="nav__items">Proyectos</a>
-              <a href="#" class="nav__items nav__items--cta cta__none">Contáctame</a>         
+              <a href="#about" class="nav__items">Sobre mí</a>
+              <a href="#projects" class="nav__items">Proyectos</a>
+              <a href="#contact" class="nav__items nav__items--cta cta__none">Contáctame</a>         
             </nav>
 
             <section class="hero__container">
@@ -34,50 +34,52 @@
   
   <main>
       <section class="presentation container">
-         <img src="assets/img/3.jpg" alt="imagen principal" class="presentation__picture">
-          <h2 class="subtitle">Mi nombre es Francisco Sciarretta</h2>
+         <img src="assets/img/yo_1erplano.jpg" alt="imagen principal" class="presentation__picture">
+          <h2 class="subtitle">Te doy la bienvenida a mi página web personal</h2>
           <p class="presentation__copy">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis atque voluptates rerum vero tenetur deserunt hic veritatis dicta debitis repudiandae? Asperiores nam sequi, ipsam maxime a ad b
+              Descubrirás a que me dedico, mis trabajos, habilidades y formas de contactarme. 
           </p>
           <a href="" class="presentation__cta">Contáctame</a>
       </section>
 
       <section class="about container">
-            <div class="about__texts">
-              <h2 class="subtitle">Mis habilidades</h2>
-              <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quia, est consectetur quos aliquid corrupti. Praesentium, excepturi sapiente accusantium consequatur corrupti error maiores.</p>
-              <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga incidunt fugit dicta officiis ducimus aliquam iusto aspernatur eos reiciendis, totam, magnam aperiam vitae.</p>
+            
+            <div class="about__texts" id="about">
+                <h2 class="subtitle">Sobre mi trabajo</h2>
+                 <p class="about__paragraph">Traduzco tu idea para publicarla en la web.</p>
+                 <p class="about__paragraph"> Escuchando tus necesidades y deseos acordamos que herramientas utilizar para resolverlos. Luego me encargaré de diseñar, programar y publicar en la web lo acordado. </p>
             </div>
-
             <figure class="about__img">
                 <img src="assets/img/dev_horizontal.svg" alt="" class="about__picture">
             </figure>
             <figure class="about__img--left">
                  <img src="assets/img/dev.svg" alt="" class="about__picture">
              </figure>
-
-            <div class="about__texts">
-                <h2 class="subtitle">Sobre mi trabajo</h2>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur quia, est consectetur quos aliquid corrupti. Praesentium, excepturi sapiente accusantium consequatur corrupti error maiores.</p>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga incidunt fugit dicta officiis ducimus aliquam iusto aspernatur eos reiciendis, totam, magnam aperiam vitae.</p>
+            <div class="about__texts" >
+                <h2 class="subtitle">Mis habilidades</h2>
+                <p class="about__paragraph"></p>
+                <p class="about__paragraph">Soy un desarrollador web frotend. Las herramientas y lenguajes que puedo utilizar son: HTML, CSS, Sass, librerías de CSS, metodologías para un buen código mantenible como BEM o BEMIT, vesionados git(github,bitbucket,gitlab), diseño con Figma, javascript vanilla, CMS Wordpress.</p>
             </div>
+            
         </section>
 
         <!-- Sección de galería de  proyectos con grid-->
-        <section class="projects">
-            <div class="container">
+        <section class="projects" >
+            <div class="container" id="projects">
                 <h2 class="subtitle">Mis proyectos</h2>
                
                 <div class="projects__grid">
                     <article class="projects__items">
-                        <img src="assets/img/1.jpg" alt="" class="projects__img">
-                        <div class="projects__hover">
+                        <img src="assets/img/1.png" alt="" class="projects__img">
+                        <a href="https://marilumaygret.com.ar/" target="_blank">
+                        <div class="projects__hover" >
                             <h2 class="projects__title">Proyecto</h2>
-                            <i class="far fa-file-alt projects__icon"></i>
+                            <i class="far fa-file-alt projects__icon" ></i>
                         </div>               
+                        </a>
                     </article>
                     <article class="projects__items">
-                        <img src="assets/img/2.jpg" alt="" class="projects__img">
+                        <img src="assets/img/2.png" alt="" class="projects__img">
                         <div class="projects__hover">
                             <h2 class="projects__title">Proyecto</h2>
                             <i class="far fa-file-alt projects__icon"></i>
@@ -151,10 +153,10 @@
    
       <div class="container footer__grid">
           <nav class="nav nav--footer">
-              <a class="nav__items nav__items--footer" href="">Inicio</a>
-              <a class="nav__items nav__items--footer" href="">Sobre mí</a>
-              <a class="nav__items nav__items--footer" href="">Mis habilidades</a>
-              <a class="nav__items nav__items--footer" href="">Proyectos</a>
+              <a class="nav__items nav__items--footer" href="#">Inicio</a>
+              <a class="nav__items nav__items--footer" href="#about">Sobre mí</a>
+              <a class="nav__items nav__items--footer" href="#about">Mis habilidades</a>
+              <a class="nav__items nav__items--footer" href="#projects">Proyectos</a>
           </nav>
           <section class="footer__contact">
                 <h3 class="footer__title">Contáctame</h3>
