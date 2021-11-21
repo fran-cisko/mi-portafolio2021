@@ -352,12 +352,13 @@ margin-top:0%;
 
 .testimony__grid{
     grid-template-columns: 1fr;
-    gap: 1em;
+    gap: 20px;
 }
 
 .testimony__item{
+   
     margin-bottom: 20px;
-    width: 95%;
+    
     
 }
 
@@ -442,4 +443,25 @@ margin-top:0%;
 .about__texts:last-child{
     grid-row: 3/4;
 }
-/**/
+/*My projects galery*/
+.projects__grid{
+    grid-template-areas: 
+    "img1 img1 img2 img2"
+    "img1 img1 img3 img3"
+    "img4 img4 img5 img5";
+}
+
+/*  testimony*/
+.testimony__grid{
+    display:inline-block;
+    
+}
+  .testimony__item{
+    
+    flex-flow: column wrap;
+    justify-content: center;
+    
+}
+.nav.nav--footer{
+    justify-content: space-between;
+}
