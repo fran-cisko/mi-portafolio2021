@@ -344,12 +344,18 @@ margin-top:0%;
 
 /*=========== Responsive Desingn ==============*/
 
-/*========= Tablets =============*/
+/*========= Tablets =============md 611 a 1190 px*/
 @media screen and (max-width:800px){
     :root{
         --boton-pading: 18px 40px;
     }
+.nav{
+    justify-content: space-around;
+}
+.hero__texts{
+    width: 90%;
 
+}
 .testimony__grid{
     grid-template-columns: 1fr;
     gap: 20px;
@@ -465,19 +471,5 @@ margin-top:0%;
 .testimony__img{
     margin: 0%;
 }
-/*
-.testimony__grid{
-    display:inline-block;
-  
-    
-}
-  .testimony__item{
-    
-    flex-flow: column wrap;
-    justify-content: center;
-   
-}
-.nav.nav--footer{
-    justify-content: space-between;
-}
-*/
+
+/*========= Smartphones =============sm de 0 610 px*/
