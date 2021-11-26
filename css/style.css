@@ -344,7 +344,7 @@ margin-top:0%;
 
 /*=========== Responsive Desingn ==============*/
 
-/*========= Tablets =============md 611 a 1190 px*/
+/*========= Tablets =============md 611 a 800 a1190 px*/
 @media screen and (max-width:800px){
     :root{
         --boton-pading: 18px 40px;
@@ -367,6 +367,13 @@ margin-top:0%;
     
     
 }
+/*My projects galery*/
+.projects__grid{
+    grid-template-areas: 
+    "img1 img1 img2 img2"
+    "img1 img1 img3 img3"
+    "img4 img4 img5 img5";
+}
 
 .footer__grid{
     grid-template-columns: 1fr;
@@ -382,7 +389,8 @@ margin-top:0%;
     grid-row: 1/2;
 }
 
-/*===== Smartphone=====*/
+/*===== Smartphone===== sm de 0 610 */
+@media screen and (max-width:610px){
 :root{
     --botton-padding: 18px 35px;
 }
@@ -402,6 +410,7 @@ margin-top:0%;
 }
 .hero__container{
   margin-inline: 0px;
+  justify-content: center;
 }
 
 .hero__texts{
@@ -449,14 +458,17 @@ margin-top:0%;
 .about__texts:last-child{
     grid-row: 3/4;
 }
-/*My projects galery*/
 .projects__grid{
     grid-template-areas: 
-    "img1 img1 img2 img2"
-    "img1 img1 img3 img3"
-    "img4 img4 img5 img5";
+    "img1"
+    "img2"
+    "img3"
+    "img4"
+    "img5";
+    height:auto;
+    grid-template-rows: repeat(5,250px);
+    grid-auto-rows: 250px;/*para cuando se agregue imágenes*/
 }
-
 /*  testimony*/
 .testimony__grid{
     grid-template-columns: 1fr;
@@ -471,5 +483,4 @@ margin-top:0%;
 .testimony__img{
     margin: 0%;
 }
-
-/*========= Smartphones =============sm de 0 610 px*/
+}
