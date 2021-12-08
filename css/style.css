@@ -84,12 +84,14 @@ text-align: center;
 margin-top:0%;
 }
 .presentation__picture{
-    margin-bottom: 10px;
-    width: 200px;
-    height: 200px;
+    margin-top:-20px;
+    width: 13rem;
+    height : 13rem;
     border-radius: 50%;
-    object-fit: cover; /*no pierda resolución*/
-    object-position: top;
+    object-fit:cover; /*no pierda resolución*/
+    object-position:50% 40% ;
+    box-shadow:5px 5px 5px 1px #667eea;
+    
 }
 .presentation__copy{
     width:80%;
