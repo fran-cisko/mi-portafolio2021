@@ -170,16 +170,16 @@ margin-top:0%;
 }
 
 .projects__items:nth-of-type(2){
-    grid-area: img2 ;
+    grid-area: img3 ;
 }
 .projects__items:nth-of-type(3){
-    grid-area: img3;
+    grid-area: img2;
 }
 .projects__items:nth-of-type(4){
-    grid-area: img4;
+    grid-area: img5;
 }
 .projects__items:nth-of-type(5){
-    grid-area: img5;
+    grid-area: img4;
 }
 
 .projects__hover{
@@ -486,4 +486,3 @@ margin-top:0%;
 .testimony__img{
     margin: 0%;
 }
-
